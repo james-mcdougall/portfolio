@@ -1,0 +1,136 @@
+{
+  "design_system": {
+    "typography": {
+      "font_family": {
+        "heading": "Satoshi, 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "body": "Inter, 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "mono": "'JetBrains Mono', 'SF Mono', monospace"
+      },
+      "weights": {
+        "heading": "700 (Bold) or 900 (Black)",
+        "body": "400 (Regular) and 500 (Medium)"
+      },
+      "tracking": {
+        "heading": "-0.02em (tight)",
+        "body": "0 (normal)"
+      }
+    },
+    "colors": {
+      "theme": "dark",
+      "palette": {
+        "background": "#000000",
+        "surface": "#1c1c1e",
+        "surface_highlight": "#2c2c2e",
+        "primary": "#0A84FF",
+        "primary_foreground": "#FFFFFF",
+        "secondary": "#3A3A3C",
+        "secondary_foreground": "#FFFFFF",
+        "muted": "#8E8E93",
+        "border": "#38383A",
+        "accent": "#30D158"
+      },
+      "gradients": {
+        "hero_glow": "radial-gradient(circle at 50% 50%, rgba(10, 132, 255, 0.15) 0%, rgba(0, 0, 0, 0) 50%)",
+        "glass": "linear-gradient(180deg, rgba(28, 28, 30, 0.7) 0%, rgba(28, 28, 30, 0.4) 100%)"
+      }
+    },
+    "spacing": {
+      "container_padding": "p-6 md:p-12 lg:p-24",
+      "section_gap": "gap-24",
+      "element_gap": "gap-6"
+    },
+    "radius": {
+      "default": "1.5rem",
+      "sm": "0.75rem",
+      "lg": "2rem"
+    },
+    "shadows": {
+      "glass": "0 8px 32px 0 rgba(0, 0, 0, 0.3)",
+      "glow": "0 0 20px rgba(10, 132, 255, 0.3)"
+    }
+  },
+  "assets": {
+    "image_urls": {
+      "hero_profile": "https://images.unsplash.com/photo-1555963153-11ff60182d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBtYWxlJTIwaGVhZHNob3QlMjB0ZWNoJTIwZGV2ZWxvcGVyJTIwc3R1ZGlvJTIwbGlnaHRpbmd8ZW58MHx8fHwxNzcwNDQxNDQ1fDA&ixlib=rb-4.1.0&q=85",
+      "projects": [
+        {
+          "title": "Crypto Wallet",
+          "category": "Finance",
+          "url": "https://images.unsplash.com/photo-1651130533706-ec3fc4701211?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtb2JpbGUlMjBiYW5raW5nJTIwYXBwJTIwdWklMjBkYXJrJTIwbW9kZXxlbnwwfHx8fDE3NzA0NDE0Njd8MA&ixlib=rb-4.1.0&q=85"
+        },
+        {
+          "title": "Fitness Tracker",
+          "category": "Health",
+          "url": "https://images.unsplash.com/photo-1571952288324-552b8c0daceb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwdHJhY2tlciUyMGFwcCUyMHVpJTIwZGFyayUyMG1vZGUlMjBtb2JpbGV8ZW58MHx8fHwxNzcwNDQxNDcxfDA&ixlib=rb-4.1.0&q=85"
+        },
+        {
+          "title": "Stock Trading",
+          "category": "Finance",
+          "url": "https://images.unsplash.com/photo-1612588311647-c87d00ea19df?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxmaXRuZXNzJTIwdHJhY2tlciUyMGFwcCUyMHVpJTIwZGFyayUyMG1vZGUlMjBtb2JpbGV8ZW58MHx8fHwxNzcwNDQxNDcxfDA&ixlib=rb-4.1.0&q=85"
+        },
+        {
+          "title": "Social Connect",
+          "category": "Social",
+          "url": "https://images.unsplash.com/photo-1565268878251-eb6848dc481c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwxfHxpcGhvbmUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ24lMjB1aSUyMGRhcmslMjBtb2RlJTIwc2xlZWt8ZW58MHx8fHwxNzcwNDQxNDUwfDA&ixlib=rb-4.1.0&q=85"
+        },
+        {
+          "title": "Banking Pro",
+          "category": "Finance",
+          "url": "https://images.unsplash.com/photo-1642055509518-adafcad1d22e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBtb2JpbGUlMjBiYW5raW5nJTIwYXBwJTIwdWklMjBkYXJrJTIwbW9kZXxlbnwwfHx8fDE3NzA0NDE0Njd8MA&ixlib=rb-4.1.0&q=85"
+        }
+      ]
+    },
+    "icons": "lucide-react"
+  },
+  "layout_strategy": {
+    "hero": {
+      "style": "Minimalist Apple",
+      "structure": "Left aligned text, Right aligned abstract 3D or blurred gradient orb. Big bold 'James McDougall' text.",
+      "animation": "Fade in up with stagger"
+    },
+    "bento_grid": {
+      "type": "Mode A (Tetris)",
+      "columns": "grid-cols-1 md:grid-cols-3 lg:grid-cols-4",
+      "gap": "gap-6",
+      "items": [
+        { "type": "featured", "span": "col-span-2 row-span-2", "content": "Main Project Image" },
+        { "type": "stat", "span": "col-span-1 row-span-1", "content": "Years Experience" },
+        { "type": "list", "span": "col-span-1 row-span-2", "content": "Tech Stack List" },
+        { "type": "image", "span": "col-span-1 row-span-1", "content": "Secondary Project" },
+        { "type": "cta", "span": "col-span-2 row-span-1", "content": "Contact Card" }
+      ]
+    }
+  },
+  "components": {
+    "glass_card": {
+      "classes": "bg-zinc-900/60 backdrop-blur-xl border border-white/10 shadow-2xl rounded-3xl",
+      "hover": "hover:bg-zinc-800/60 hover:scale-[1.02] transition-all duration-500 ease-out"
+    },
+    "button": {
+      "primary": "bg-[#0A84FF] hover:bg-[#007AFF] text-white rounded-full px-8 py-3 font-medium transition-all hover:shadow-[0_0_20px_rgba(10,132,255,0.4)]",
+      "secondary": "bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/10 rounded-full px-8 py-3"
+    },
+    "badge": {
+      "style": "bg-white/5 border border-white/10 text-zinc-300 rounded-full px-4 py-1 text-sm backdrop-blur-sm"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'framer-motion', 'lucide-react', 'clsx', 'tailwind-merge'.",
+    "2. THEME: Configure Tailwind for the 'Apple Dark' palette defined in colors. Use Zinc colors as base.",
+    "3. FONTS: Import 'Inter' from Google Fonts. Use it for everything. Set 'tracking-tight' on all headings.",
+    "4. HERO: Create a hero section with the profile image (masked in a circle or organic shape) and a strong value prop.",
+    "5. PROJECTS: Implement the Bento Grid using the provided image URLs. Use framer-motion for the 'pop out' hover effect (scale 1.05 + shadow glow).",
+    "6. SKILLS: Display skills as a floating 'tag cloud' or a clean grid of glass badges.",
+    "7. EXPERIENCE: Create a vertical timeline using a thin line and glass cards for each role.",
+    "8. CONTACT: Simple section with email and social links. No form.",
+    "9. DETAIL PAGES: Create a dynamic route or modal for project details.",
+    "10. POLISH: Add 'lenis' for smooth scrolling if possible, or just ensure native scroll is smooth."
+  ],
+  "universal_guidelines": [
+    "Do not use gradients for text.",
+    "Ensure all glass elements have a subtle 1px white/10 border.",
+    "Use 'backdrop-blur-xl' for that premium Apple feel.",
+    "Text colors should never be pure white (#FFFFFF) for body text; use #E4E4E7 (Zinc 200). Headings can be white.",
+    "Animations should be spring-based (stiffness: 100, damping: 20) for that iOS feel."
+  ]
+}
