@@ -14,7 +14,9 @@ const ProjectDetail = () => {
   useEffect(() => {
     const fetchProject = async () => {
       try {
-        const response = await fetch(`${API_URL}/api/projects/${id}`);
+        // Use relative path for API calls through proxy
+        const apiBase = API_URL || '';
+        const response = await fetch(`${apiBase}/api/projects/${id}`);
         const data = await response.json();
         setProject(data);
       } catch (error) {
